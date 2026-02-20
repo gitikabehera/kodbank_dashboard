@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_URL = import.meta.env.PROD
-    ? 'https://your-backend-app.onrender.com/api' // Replace with actual Render URL after deployment
+    ? 'https://kodbank-backend-suxm.onrender.com/api'
     : 'http://localhost:5000/api';
 
 const api = axios.create({
